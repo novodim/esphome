@@ -21,6 +21,7 @@ light:
   - platform: binary
     name: "relay-module-light"
     output: relay_module_light_relay
+    id: relay_module_light_light
 
 
 output:
