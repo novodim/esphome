@@ -42,7 +42,7 @@ binary_sensor:
       - delayed_off: 10ms
     on_state:
       then:
-        - light.toggle: relay_module_light
+        - light.toggle: relay_module_light_relay
 
 sensor:
   - platform: wifi_signal
