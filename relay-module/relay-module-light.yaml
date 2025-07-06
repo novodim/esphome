@@ -1,6 +1,9 @@
 esphome:
   name: relay-module-light
+
+esp8266:
   board: esp01_1m
+  restore_from_flash: true
 
 wifi:
   ssid: !secret wifi_ssid
@@ -12,6 +15,7 @@ api:
     reboot_timeout: 0s
 
 ota:
+  platform: esphome
 
 web_server:
   port: 80
