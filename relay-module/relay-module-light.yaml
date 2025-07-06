@@ -1,6 +1,5 @@
 esphome:
   name: relay-module-light
-
   board: esp01_1m
 
 wifi:
